@@ -24,7 +24,7 @@ let uploadFile = (file) => {
               return reject({ error: err.message });
           }
           if(![".jpg",".jpeg",".pdf"].includes(path.extname(file.originalname))){
-            return reject({ status: false, message: "Invalid file type - accepted file type are - png, jpg, doc, pdf" })
+            return reject({ status: false, message: "Invalid file type - accepted file type are - jpg, jpeg, pdf" })
           }
         
         //   console.log(data)
