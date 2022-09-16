@@ -23,16 +23,12 @@ const studentSchema = new mongoose.Schema({
 
     studentImage: {
         type: String,
-        unique: true,
         required: true,
-        trim: true
     },
 
     identity: {
         type: String,
-        unique: true,
         required: true,
-        trim: true,
     },
 
     schoolName: {
