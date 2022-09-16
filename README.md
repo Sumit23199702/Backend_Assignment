@@ -11,4 +11,4 @@ School Name: string,
 District: string,
 Postal Code: number
 
-Then after that I save this data in the mongodb or json file.Also, I use multer for uploading student Image and Identity.
+Then after that I save this data in the mongodb or json file.Also, I use multer and aws S3 for uploading student Image and Identity.
